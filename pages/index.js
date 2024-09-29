@@ -43,7 +43,8 @@ export default function Home({ books }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://freetestapi.com/api/v1/books')
+  // const res = await fetch('https://freetestapi.com/api/v1/books')
+  const res = await fetch('http://localhost:3000/api/books')
   const books = await res.json()
   return { props: { books } }
 }

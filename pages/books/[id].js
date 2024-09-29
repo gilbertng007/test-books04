@@ -53,7 +53,8 @@ export default function BookDetail({ book }) {
 }
 
 export async function getServerSideProps({ params }) {
-  const res = await fetch(`https://freetestapi.com/api/v1/books/${params.id}`)
+  // const res = await fetch(`https://freetestapi.com/api/v1/books/${params.id}`)
+  const res = await fetch(`http://localhost:3000/api/books/${params.id}`)
   const book = await res.json()
   return { props: { book } }
 }
