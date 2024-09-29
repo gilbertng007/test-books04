@@ -39,9 +39,7 @@ export default function OrderHistory() {
                 <TableCell>${order.total}</TableCell>
                 <TableCell>{order.status}</TableCell>
                 <TableCell>
-                  <Link href={`/order/${order.id}`} passHref>
-                    <Button color="primary">查看詳情</Button>
-                  </Link>
+                  <Link href={`/order/${order.id}`} color="primary">查看詳情</Link>
                 </TableCell>
               </TableRow>
             ))}
