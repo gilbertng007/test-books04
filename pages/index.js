@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react'
-import { Grid, Card, CardContent, CardMedia, Typography, Button } from '@mui/material'
-import Link from 'next/link'
-import React from 'react'
+import { useState, useEffect } from 'react';
+import { Grid, Card, CardContent, CardMedia, Typography, Button } from '@mui/material';
+import Link from 'next/link';
+import React from 'react';
+import Image from 'next/image';
 
 export default function Home({ books }) {
   return (

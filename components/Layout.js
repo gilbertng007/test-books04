@@ -8,9 +8,7 @@ export default function Layout({ children }) {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link href="/" passHref>
-              <a className="text-white no-underline">網上書店</a>
-            </Link>
+            <Link href="/" className="text-white no-underline">網上書店</Link>
           </Typography>
           <Button color="inherit" component={Link} href="/cart">
             購物車
