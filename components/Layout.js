@@ -30,7 +30,7 @@ export default function Layout({ children }) {
       <footer className="mt-8 py-4 bg-gray-100">
         <Container maxWidth="lg">
           <Typography variant="body2" color="text.secondary" align="center">
-            © 2023 網上書店. 版權所有.
+            © 2024 網上書店. 版權所有.
           </Typography>
         </Container>
       </footer>
